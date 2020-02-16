@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Suite">
+<listeners>
+	<listener class-name="com.qa.furniture.Report.ExtentReportAPI"/>
+</listeners>
+<parameter name="BaseURI" value="http://okmry52647dns.eastus.cloudapp.azure.com:8089"/>
+    <test name="Sanity test">
+        <classes>
+				<class name="com.qa.furniture.test.FurnitureGetTest"/>
+				<class name="com.qa.furniture.test.FurniturePostTest"/>
+        			<class name="com.qa.furniture.test.PutProduct"/>
+        			<class name="com.qa.furniture.test.FurnitureDelete"/>
+        </classes>
+    </test>
+</suite>
