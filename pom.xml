@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>FunitureSample</groupId>
-  <artifactId>COm.qa.furnituresample</artifactId>
+  <artifactId>RestAssuredSDETFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>COm.qa.furnituresample</name>
+  <name>RestAssuredSDETFramework</name>
   <url>http://maven.apache.org</url>
 
   <properties>
