@@ -15,7 +15,6 @@ import com.relevantcodes.extentreports.ExtentTest;
 
 import io.restassured.RestAssured;
 
-
 public class BaseClass {
 	
 	public static ExtentReports reporter = null;

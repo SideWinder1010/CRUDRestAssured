@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Sanity test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 16 16:22:27 CST 2020</td>
+<td>Started on:</td><td>Tue Feb 18 03:15:37 UTC 2020</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5311 ms)</td>
+<tr><td>Total time:</td><td>7 seconds (7230 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,66 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.furniture.test.FurnitureDelete.deleteTest()'><b>deleteTest</b><br>Test class: com.qa.furniture.test.FurnitureDelete<br>Parameters: 110.0<br/>
+<a href="#Output-1257532915" onClick='toggleBox("Output-1257532915", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1257532915" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1257532915">
+Delete Value API Test begins<br/>
+</div>
+</td>
+<td><div><pre>junit.framework.AssertionFailedError: expected:&lt;false&gt; but was:&lt;true&gt;
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:147)
+	at junit.framework.Assert.assertEquals(Assert.java:153)
+	at com.qa.furniture.test.FurnitureDelete.deleteTest(FurnitureDelete.java:87)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1257532915", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1257532915'><pre>junit.framework.AssertionFailedError: expected:&lt;false&gt; but was:&lt;true&gt;
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:147)
+	at junit.framework.Assert.assertEquals(Assert.java:153)
+	at com.qa.furniture.test.FurnitureDelete.deleteTest(FurnitureDelete.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.qa.furniture.test.FurnitureDelete@14bf9759</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,57 +135,45 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.furniture.test.FurnitureDelete.deleteTest()'><b>deleteTest</b><br>Test class: com.qa.furniture.test.FurnitureDelete<br>Parameters: 110.0<br/>
-<a href="#Output-1914740115" onClick='toggleBox("Output-1914740115", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1914740115" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1914740115">
-Delete Value API Test begins<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>com.qa.furniture.test.FurnitureDelete@3d24753a</td></tr>
-<tr>
 <td title='com.qa.furniture.test.FurnitureGetTest.getProductTest()'><b>getProductTest</b><br>Test class: com.qa.furniture.test.FurnitureGetTest<br/>
-<a href="#Output-1965237677" onClick='toggleBox("Output-1965237677", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-302977067" onClick='toggleBox("Output-302977067", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1965237677" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1965237677">
+<a href="#Output-302977067" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-302977067">
 Get Value API Test begins<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>com.qa.furniture.test.FurnitureGetTest@5594a1b5</td></tr>
+<td>com.qa.furniture.test.FurnitureGetTest@31ef45e3</td></tr>
 <tr>
 <td title='com.qa.furniture.test.FurniturePostTest.postProductTest()'><b>postProductTest</b><br>Test class: com.qa.furniture.test.FurniturePostTest<br>Parameters: true, 3.0, yellow,  , Chair within sofa, 100.0, Chair new sofa has, sofa, 12000.0,  , 10.0<br/>
-<a href="#Output-683718244" onClick='toggleBox("Output-683718244", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1907467420" onClick='toggleBox("Output-1907467420", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-683718244" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-683718244">
+<a href="#Output-1907467420" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1907467420">
 Post Value API Test begins<br/>
 3.0<br/>
 100.0<br/>
-{"message":"Created","httpStatus":"201 CREATED","httpStatusCode":201,"body":{"productId":512,"name":"sofa","color":"yellow","price":12000.0,"description":"Chair within sofa","materialDescription":"Chair new sofa has","warranty":10,"availability":false,"updateOn":"2020-02-16","createdOn":"2020-02-16","discount":100,"categoryName":"sofa"},"success":true,"error":false}<br/>
+{"message":"Created","httpStatus":"201 CREATED","httpStatusCode":201,"body":{"productId":697,"name":"sofa","color":"yellow","price":12000.0,"description":"Chair within sofa","materialDescription":"Chair new sofa has","warranty":10,"availability":false,"updateOn":"2020-02-18","createdOn":"2020-02-18","discount":100,"categoryName":"sofa"},"success":true,"error":false}<br/>
 Status code is201<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.qa.furniture.test.FurniturePostTest@57829d67</td></tr>
+<td>com.qa.furniture.test.FurniturePostTest@598067a5</td></tr>
 <tr>
 <td title='com.qa.furniture.test.PutProduct.putProductTest()'><b>putProductTest</b><br>Test class: com.qa.furniture.test.PutProduct<br>Parameters: 101.0, true, blue, New chair, 100.0, Awesome fabric, chair, 12000.0,  , 10.0<br/>
-<a href="#Output-803768841" onClick='toggleBox("Output-803768841", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-835426017" onClick='toggleBox("Output-835426017", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-803768841" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-803768841">
+<a href="#Output-835426017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-835426017">
 Post Value API Test begins<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.qa.furniture.test.PutProduct@17c68925</td></tr>
+<td>com.qa.furniture.test.PutProduct@3c0ecd4b</td></tr>
 </table><p>
 </body>
 </html>

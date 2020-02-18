@@ -15,11 +15,10 @@
   </properties>
 
   <dependencies>
-    <dependency>
+   <dependency>
 	    <groupId>io.rest-assured</groupId>
 	    <artifactId>rest-assured</artifactId>
 	    <version>3.3.0</version>
-	    <scope>test</scope>
 	</dependency>
 	<dependency>
 	    <groupId>com.googlecode.json-simple</groupId>

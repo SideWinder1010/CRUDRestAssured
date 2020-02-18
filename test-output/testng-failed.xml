@@ -5,41 +5,17 @@
   <listeners>
     <listener class-name="com.qa.furniture.Report.ExtentReportAPI"/>
   </listeners>
-  <test name="Sanity test(failed)">
+  <test thread-count="5" name="Sanity test(failed)">
     <classes>
       <class name="com.qa.furniture.test.FurnitureDelete">
         <methods>
           <include name="setUp"/>
           <include name="beforeClass"/>
           <include name="driverSetUp"/>
-          <include name="deleteTest" invocation-numbers="0 1 3 4"/>
+          <include name="deleteTest" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.furniture.test.FurnitureDelete -->
-      <class name="com.qa.furniture.test.FurnitureGetTest">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="driverSetUp"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.qa.furniture.test.FurnitureGetTest -->
-      <class name="com.qa.furniture.test.PutProduct">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="driverSetUp"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.qa.furniture.test.PutProduct -->
-      <class name="com.qa.furniture.test.FurniturePostTest">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="driverSetUp"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.qa.furniture.test.FurniturePostTest -->
     </classes>
   </test> <!-- Sanity test(failed) -->
 </suite> <!-- Failed suite [Sanity Suite] -->
