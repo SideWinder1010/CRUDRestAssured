@@ -20,7 +20,7 @@
       <![CDATA[100.0]]>
     </line>
     <line>
-      <![CDATA[{"message":"Created","httpStatus":"201 CREATED","httpStatusCode":201,"body":{"productId":697,"name":"sofa","color":"yellow","price":12000.0,"description":"Chair within sofa","materialDescription":"Chair new sofa has","warranty":10,"availability":false,"updateOn":"2020-02-18","createdOn":"2020-02-18","discount":100,"categoryName":"sofa"},"success":true,"error":false}]]>
+      <![CDATA[{"message":"Created","httpStatus":"201 CREATED","httpStatusCode":201,"body":{"productId":698,"name":"sofa","color":"yellow","price":12000.0,"description":"Chair within sofa","materialDescription":"Chair new sofa has","warranty":10,"availability":false,"updateOn":"2020-02-18","createdOn":"2020-02-18","discount":100,"categoryName":"sofa"},"success":true,"error":false}]]>
     </line>
     <line>
       <![CDATA[Status code is201]]>
@@ -38,12 +38,12 @@
       <![CDATA[Delete Value API Test begins]]>
     </line>
   </reporter-output>
-  <suite name="Sanity Suite" duration-ms="7230" started-at="2020-02-18T03:15:37Z" finished-at="2020-02-18T03:15:44Z">
+  <suite name="Sanity Suite" duration-ms="3427" started-at="2020-02-18T03:21:28Z" finished-at="2020-02-18T03:21:32Z">
     <groups>
     </groups>
-    <test name="Sanity test" duration-ms="7230" started-at="2020-02-18T03:15:37Z" finished-at="2020-02-18T03:15:44Z">
+    <test name="Sanity test" duration-ms="3427" started-at="2020-02-18T03:21:28Z" finished-at="2020-02-18T03:21:32Z">
       <class name="com.qa.furniture.test.FurnitureGetTest">
-        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@31ef45e3]" name="beforeClass" is-config="true" duration-ms="1357" started-at="2020-02-18T03:15:37Z" finished-at="2020-02-18T03:15:38Z">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@31ef45e3]" name="beforeClass" is-config="true" duration-ms="408" started-at="2020-02-18T03:21:28Z" finished-at="2020-02-18T03:21:29Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@31ef45e3]" name="driverSetUp" is-config="true" duration-ms="723" started-at="2020-02-18T03:15:38Z" finished-at="2020-02-18T03:15:39Z">
+        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@31ef45e3]" name="driverSetUp" is-config="true" duration-ms="104" started-at="2020-02-18T03:21:29Z" finished-at="2020-02-18T03:21:29Z">
           <params>
             <param index="0">
               <value>
@@ -68,24 +68,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@31ef45e3]" name="setUp" is-config="true" duration-ms="1" started-at="2020-02-18T03:15:39Z" finished-at="2020-02-18T03:15:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getProductTest()[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@31ef45e3]" name="getProductTest" duration-ms="1212" started-at="2020-02-18T03:15:39Z" finished-at="2020-02-18T03:15:40Z">
+        <test-method status="PASS" signature="getProductTest()[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@31ef45e3]" name="getProductTest" duration-ms="893" started-at="2020-02-18T03:21:29Z" finished-at="2020-02-18T03:21:30Z">
           <reporter-output>
             <line>
               <![CDATA[Get Value API Test begins]]>
             </line>
           </reporter-output>
         </test-method> <!-- getProductTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@31ef45e3]" name="tearDown" is-config="true" duration-ms="494" started-at="2020-02-18T03:15:40Z" finished-at="2020-02-18T03:15:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@31ef45e3]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-18T03:21:29Z" finished-at="2020-02-18T03:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.furniture.test.FurnitureGetTest@31ef45e3]" name="tearDown" is-config="true" duration-ms="350" started-at="2020-02-18T03:21:30Z" finished-at="2020-02-18T03:21:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.furniture.test.FurnitureGetTest -->
       <class name="com.qa.furniture.test.FurniturePostTest">
-        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.FurniturePostTest@598067a5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-02-18T03:15:41Z" finished-at="2020-02-18T03:15:41Z">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.FurniturePostTest@598067a5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-02-18T03:21:30Z" finished-at="2020-02-18T03:21:30Z">
           <params>
             <param index="0">
               <value>
@@ -99,18 +99,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.qa.furniture.test.FurniturePostTest@598067a5]" name="driverSetUp" is-config="true" duration-ms="1" started-at="2020-02-18T03:15:42Z" finished-at="2020-02-18T03:15:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.furniture.test.FurniturePostTest.postProductTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="postProductTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.furniture.test.FurniturePostTest@598067a5]" name="postProductTest" duration-ms="917" started-at="2020-02-18T03:15:42Z" data-provider="getProductData" finished-at="2020-02-18T03:15:43Z">
+        <test-method status="PASS" signature="postProductTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.furniture.test.FurniturePostTest@598067a5]" name="postProductTest" duration-ms="395" started-at="2020-02-18T03:21:30Z" data-provider="getProductData" finished-at="2020-02-18T03:21:31Z">
           <params>
             <param index="0">
               <value>
@@ -179,24 +168,35 @@
               <![CDATA[100.0]]>
             </line>
             <line>
-              <![CDATA[{"message":"Created","httpStatus":"201 CREATED","httpStatusCode":201,"body":{"productId":697,"name":"sofa","color":"yellow","price":12000.0,"description":"Chair within sofa","materialDescription":"Chair new sofa has","warranty":10,"availability":false,"updateOn":"2020-02-18","createdOn":"2020-02-18","discount":100,"categoryName":"sofa"},"success":true,"error":false}]]>
+              <![CDATA[{"message":"Created","httpStatus":"201 CREATED","httpStatusCode":201,"body":{"productId":698,"name":"sofa","color":"yellow","price":12000.0,"description":"Chair within sofa","materialDescription":"Chair new sofa has","warranty":10,"availability":false,"updateOn":"2020-02-18","createdOn":"2020-02-18","discount":100,"categoryName":"sofa"},"success":true,"error":false}]]>
             </line>
             <line>
               <![CDATA[Status code is201]]>
             </line>
           </reporter-output>
         </test-method> <!-- postProductTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.FurniturePostTest@598067a5]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-18T03:15:42Z" finished-at="2020-02-18T03:15:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.FurniturePostTest@598067a5]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-18T03:21:30Z" finished-at="2020-02-18T03:21:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.furniture.test.FurniturePostTest@598067a5]" name="tearDown" is-config="true" duration-ms="51" started-at="2020-02-18T03:15:43Z" finished-at="2020-02-18T03:15:43Z">
+        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.qa.furniture.test.FurniturePostTest@598067a5]" name="driverSetUp" is-config="true" duration-ms="0" started-at="2020-02-18T03:21:30Z" finished-at="2020-02-18T03:21:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.furniture.test.FurniturePostTest.postProductTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.furniture.test.FurniturePostTest@598067a5]" name="tearDown" is-config="true" duration-ms="52" started-at="2020-02-18T03:21:31Z" finished-at="2020-02-18T03:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.furniture.test.FurniturePostTest -->
       <class name="com.qa.furniture.test.PutProduct">
-        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.PutProduct@3c0ecd4b]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-02-18T03:15:43Z" finished-at="2020-02-18T03:15:43Z">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.PutProduct@3c0ecd4b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-02-18T03:21:31Z" finished-at="2020-02-18T03:21:31Z">
           <params>
             <param index="0">
               <value>
@@ -210,7 +210,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.qa.furniture.test.PutProduct@3c0ecd4b]" name="driverSetUp" is-config="true" duration-ms="1" started-at="2020-02-18T03:15:43Z" finished-at="2020-02-18T03:15:43Z">
+        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.qa.furniture.test.PutProduct@3c0ecd4b]" name="driverSetUp" is-config="true" duration-ms="1" started-at="2020-02-18T03:21:31Z" finished-at="2020-02-18T03:21:31Z">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="putProductTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.furniture.test.PutProduct@3c0ecd4b]" name="putProductTest" duration-ms="61" started-at="2020-02-18T03:15:43Z" data-provider="getProductData" finished-at="2020-02-18T03:15:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.PutProduct@3c0ecd4b]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-18T03:21:31Z" finished-at="2020-02-18T03:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="putProductTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.furniture.test.PutProduct@3c0ecd4b]" name="putProductTest" duration-ms="39" started-at="2020-02-18T03:21:31Z" data-provider="getProductData" finished-at="2020-02-18T03:21:31Z">
           <params>
             <param index="0">
               <value>
@@ -280,17 +284,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- putProductTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.PutProduct@3c0ecd4b]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-18T03:15:43Z" finished-at="2020-02-18T03:15:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.furniture.test.PutProduct@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="52" started-at="2020-02-18T03:15:43Z" finished-at="2020-02-18T03:15:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.furniture.test.PutProduct@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="49" started-at="2020-02-18T03:21:31Z" finished-at="2020-02-18T03:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.furniture.test.PutProduct -->
       <class name="com.qa.furniture.test.FurnitureDelete">
-        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.FurnitureDelete@14bf9759]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-02-18T03:15:43Z" finished-at="2020-02-18T03:15:43Z">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.qa.furniture.test.FurnitureDelete@14bf9759]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-02-18T03:21:31Z" finished-at="2020-02-18T03:21:31Z">
           <params>
             <param index="0">
               <value>
@@ -304,7 +304,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="deleteTest(java.lang.String)[pri:1, instance:com.qa.furniture.test.FurnitureDelete@14bf9759]" name="deleteTest" duration-ms="1209" started-at="2020-02-18T03:15:43Z" data-provider="getProductData" finished-at="2020-02-18T03:15:44Z">
+        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.qa.furniture.test.FurnitureDelete@14bf9759]" name="driverSetUp" is-config="true" duration-ms="1" started-at="2020-02-18T03:21:31Z" finished-at="2020-02-18T03:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.furniture.test.FurnitureDelete.deleteTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method status="FAIL" signature="deleteTest(java.lang.String)[pri:1, instance:com.qa.furniture.test.FurnitureDelete@14bf9759]" name="deleteTest" duration-ms="809" started-at="2020-02-18T03:21:31Z" data-provider="getProductData" finished-at="2020-02-18T03:21:32Z">
           <params>
             <param index="0">
               <value>
@@ -358,22 +369,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- deleteTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.FurnitureDelete@14bf9759]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-18T03:15:43Z" finished-at="2020-02-18T03:15:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.furniture.test.FurnitureDelete@14bf9759]" name="setUp" is-config="true" duration-ms="0" started-at="2020-02-18T03:21:31Z" finished-at="2020-02-18T03:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="driverSetUp(java.lang.reflect.Method)[pri:0, instance:com.qa.furniture.test.FurnitureDelete@14bf9759]" name="driverSetUp" is-config="true" duration-ms="0" started-at="2020-02-18T03:15:43Z" finished-at="2020-02-18T03:15:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.furniture.test.FurnitureDelete.deleteTest(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.furniture.test.FurnitureDelete@14bf9759]" name="tearDown" is-config="true" duration-ms="48" started-at="2020-02-18T03:15:44Z" finished-at="2020-02-18T03:15:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.furniture.test.FurnitureDelete@14bf9759]" name="tearDown" is-config="true" duration-ms="58" started-at="2020-02-18T03:21:32Z" finished-at="2020-02-18T03:21:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
