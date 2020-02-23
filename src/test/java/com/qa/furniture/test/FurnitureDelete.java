@@ -32,7 +32,7 @@ public class FurnitureDelete extends BaseClass {
 	private static BaseClass bc= new BaseClass();
 	private static ExtentTest extentReportLogger = null;
 	private static String testCategory = "Furniture API";
-	
+	boolean responseStatus;
 	/**
 	 * Before Method for setup
 	 */
@@ -69,7 +69,7 @@ public class FurnitureDelete extends BaseClass {
 					
 		Response response = httpRequest.request(Method.DELETE,appender);
 	
-		boolean responseStatus = response.then().extract().path("success");
+		responseStatus = response.then().extract().path("success");
 		
 		//System.out.println("************************Response************"+response.getBody().prettyPrint());
 	

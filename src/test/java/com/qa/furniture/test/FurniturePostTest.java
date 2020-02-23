@@ -16,6 +16,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.restassured.RestAssured;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.Method;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import junit.framework.Assert;
@@ -25,7 +26,8 @@ public class FurniturePostTest extends BaseClass {
 
 	private static ExtentTest extentReportLogger = null;
 	private static String testCategory = "Furniture API";
-	String appender = null;
+	private static String appender = null;
+	private static int statusCode;
 
 	@BeforeMethod
 	public void setUp(){
@@ -51,8 +53,7 @@ public class FurniturePostTest extends BaseClass {
 		Reporter.log("Post Value API Test begins",true);
 		RequestSpecification httpRequest = RestAssured.given();
 		
-		JSONObject requestParams = new JSONObject();
-		
+		//JSONObject requestParams = new JSONObject();
 	
 		Double catIdDouble = Double.parseDouble(categoryId);
 		Reporter.log(catIdDouble.toString());
@@ -73,17 +74,34 @@ public class FurniturePostTest extends BaseClass {
 		Response response = httpRequest.request(Method.POST,appender);		
 		
 		//httpRequest.log(LogDetail.BODY);
-		httpRequest.given().log().toString();
+		//httpRequest.given().log().toString();
 		
+		//Response body
 		String responseBody = response.getBody().asString();
 	
+		//Logging
 		Reporter.log(responseBody);
+		
+		
 		//Status code validation
-		int statusCode=response.getStatusCode();
+		statusCode=response.getStatusCode();
 		Reporter.log("Status code is"+statusCode);
 		Assert.assertEquals(statusCode, 201);
 		
-		if(statusCode == 201)
+		//Getting status using JSON path
+		
+		JsonPath jsonPath = new JsonPath(responseBody);
+		int statusCodeJson = jsonPath.getInt("httpStatusCode");
+		String message = jsonPath.getString("message");
+		String successMessage = jsonPath.getString("success");
+		
+		
+		Reporter.log("Success message "+successMessage);
+		Reporter.log("Message "+message);
+		//System.out.println(message);
+		//System.out.println(successMessage);
+		
+		if(statusCodeJson == 201)
 		{
 			extentReportLogger.log(LogStatus.PASS, "***The test case has passed**");
 			BaseClass.reportTestCaseStatus(extentReportLogger, "Post Method", true,responseBody);

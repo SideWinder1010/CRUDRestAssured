@@ -9,7 +9,7 @@
         <classes>
 				<class name="com.qa.furniture.test.FurnitureGetTest"/>
 				<class name="com.qa.furniture.test.FurniturePostTest"/>
-        			<class name="com.qa.furniture.test.PutProduct"/>
+        		<class name="com.qa.furniture.test.PutProduct"/>
         			<class name="com.qa.furniture.test.FurnitureDelete"/>
         </classes>
     </test>
